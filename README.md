@@ -1,4 +1,9 @@
-# 2022
-2022.08~2022.12간 공부했던 레포지토리 입니다.
+# 노마드코더 - 바닐라 JS로 크롬 앱 만들기
 
-- 브랜치 별로 정리해둠.
+1. 현재시간
+2. 할 일 추가, 삭제
+3. Background Img
+4. 로그인, 유지
+
+- 두번째로 들은 JS 인강입니다.
+- 인강 링크 : https://nomadcoders.co/javascript-for-beginners/lobby
