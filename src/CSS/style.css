@@ -1,0 +1,117 @@
+body{
+    background-color: rgba(0,0,0,0.9);
+    color:white;
+}
+
+.notsamemonth{
+    color:#808080;
+}
+
+/* Main.js 양력 */
+.solday{
+    display:flex;
+    margin-top:5px;
+    margin-right:10px;
+    position:relative;
+    z-index: 2;
+}
+
+/* Main.js 음력 */
+.lunday{
+    position:absolute;
+    margin-top:120px;
+    margin-right:10px;
+    color:#808080
+}
+
+/* Main.js 공휴일 빨간 글씨 */
+.redday{
+    position:absolute;
+    margin-top:40px;
+    margin-right:10px;
+    color:red;
+}
+
+/* Main.js 공휴일 빨간 원 */
+.redcircle{
+    position:absolute;
+    margin-right:3px;
+    margin-top:2px;
+    background-color:tomato;
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    z-index: 1;
+}
+
+/* Main.js 하루 */
+.divDay{
+    width:125px;
+    height:150px;
+    display:flex;
+    border: 0.1px solid #363636;
+    justify-content:flex-end;
+    border-right-style:none;
+}
+
+/* Main.js 한 주 */
+.divWeek{
+    display:flex;
+    width:900px;
+    height:150px;
+    flex-direction:row;
+}
+
+/* Main.js 주말 */
+.divWeek div:last-child{
+    border-right-style:solid;
+    background-color:#2b2b2b;
+}
+.divWeek div:first-child{
+    background-color:#2b2b2b;
+}
+
+/* Main.js 달력 전체 */
+.divWrapper{
+    display:flex;
+    height:900px;
+    width:900px;
+    flex-direction:column;
+}
+
+/* Header.js CSS 제목없음 위에 바 */
+.hr{
+    display:flex;
+}
+.hr div:first-child{
+    width:120px;
+    height:3px;
+    margin-top:8px;
+    background-color:white;
+}
+.hr div:last-child{
+    width:800px;
+    height:3px;
+    margin-top:8px;
+    background-color:rgba(52, 52, 52, 0.9);
+}
+
+/* Header.js CSS 달력아이콘 + "캘린더 보기"*/
+.nav{
+    display:flex;
+}
+.nav span{
+    margin-left:5px;
+    font-size: 18px;
+}
+
+/* Header.js CSS 0000년 0월 + 지난달 화살표, 다음달 화살표 */
+.main{
+    display:flex;
+    position:relative;
+}
+.main div{
+    position:absolute;
+    margin-left:810px;
+    display:flex;
+}
