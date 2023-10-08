@@ -1,0 +1,36 @@
+body{
+    background-color: #ebeef3;
+}
+
+.detail{
+    width:800px;
+    height: 650px;
+    background-color: white;
+    border-radius: 25px;
+    display:flex;
+    margin: 0 auto;
+    left:0;
+    right:0;
+    margin-top:50px;
+}
+
+.detail_image img{
+    width:270px;
+    height: 350px;
+    margin-right:20px;
+    border-radius: 20px;
+}
+
+.detail_text{
+    display:flex;
+    flex-direction: column;
+}
+
+.detail_text p{
+    font-size:16px;
+    font-weight: 600;
+    color:rgba(0,0,0,0.4);
+}
+
+
+
